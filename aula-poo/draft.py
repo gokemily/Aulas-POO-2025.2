@@ -43,7 +43,7 @@ def main():
             towel.wetness = int(arg[1])
             print("Umidade da toalha alterada")
         elif arg[0] == "wringOut":
-            towel.wetness = 0
+            towel.wetness = 0git
             print("Toalha torcida até a ultima gota")
         else:
             print("comando nao encontrado")
